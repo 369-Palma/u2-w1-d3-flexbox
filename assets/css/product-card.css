@@ -1,6 +1,45 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 10px 0;
+  border-radius: 40px;
+  background-color: #fbf7e3;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 1em;
+  margin: 2px;
+}
+.menu li {
+  background-color: #f3df85;
+  cursor: pointer;
+  margin-right: 1em;
+  border-radius: 40%;
+  width: fit-content;
+}
+#shop {
+  display: flex;
+  justify-content: space-around;
+}
+#shop span {
+  flex-grow: 2.5;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3df85;
+}
+
+#shop img {
+  width: 30px;
+}
+.bottone {
+  background-color: #f3df85;
+  border-color: none;
+}
+
 #card {
   margin: 0;
-
   display: flex;
   flex-direction: column;
   width: 400px;
