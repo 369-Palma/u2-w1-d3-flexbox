@@ -1,0 +1,54 @@
+#card {
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#immagine {
+  flex-grow: 3;
+  background-image: url(../imgs/honey.jpg);
+  background-size: cover;
+}
+#immagine img {
+  max-width: 100%;
+}
+#contenitore {
+  width: 100%;
+  margin: 0;
+  background-color: #fbf7e3;
+  display: flex;
+  flex-grow: 1.2;
+}
+.prodotto p {
+  font-weight: 700;
+  font-size: large;
+  margin-bottom: 0;
+}
+
+.middle {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  align-items: center;
+}
+.paragrafo p {
+  margin-top: 0;
+}
+
+.carrello {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.3em;
+}
+
+.carrello button {
+  align-self: center;
+}
+#informazioni button {
+  background-color: #f3df85;
+  border-radius: 40px;
+}
